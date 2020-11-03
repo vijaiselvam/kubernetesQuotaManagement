@@ -9,3 +9,9 @@ vi quota.yml
 kubectl apply -f quota.yaml --namespace=quota-mem-cpu-example
 
 kubectl describe ns quota-mem-cpu-example
+
+kubectl apply -f pod.yaml --namespace=quota-mem-cpu-example
+
+kubectl describe ns quota-mem-cpu-example
+
+kubectl apply -f pod1.yaml --namespace=quota-mem-cpu-example
