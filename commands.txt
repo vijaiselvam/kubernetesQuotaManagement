@@ -1,0 +1,11 @@
+te namespace quota-mem-cpu-example
+
+kubectl get ns
+
+kubectl describe ns quota-mem-cpu-example
+
+vi quota.yml
+
+kubectl apply -f quota.yaml --namespace=quota-mem-cpu-example
+
+kubectl describe ns quota-mem-cpu-example
