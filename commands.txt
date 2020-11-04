@@ -15,3 +15,7 @@ kubectl apply -f pod.yaml --namespace=quota-mem-cpu-example
 kubectl describe ns quota-mem-cpu-example
 
 kubectl apply -f pod1.yaml --namespace=quota-mem-cpu-example
+
+kubectl apply -f githubpath  or kubectl apply -f deployment.yaml
+
+kubectl get deploy
